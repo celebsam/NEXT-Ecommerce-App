@@ -7,10 +7,18 @@ body {
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  color: inherit !important;
+  text-decoration: none !important;
 }
 
 * {
   box-sizing: border-box;
+}
+
+#basic-navbar-nav {
+  justify-content: flex-end;
+}
+
+#basic-navbar-nav > div {
+  align-items: center;
 }
